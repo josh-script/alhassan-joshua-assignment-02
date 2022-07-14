@@ -40,12 +40,13 @@ function countEvenNumbers(arrayOfNumbers) {
   let evenCount = 0;
   for(let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] % 2 === 0 ) {
-      evenCount++
+     evenCount++
     }
   }
-  return evenCount
-  // return arrayOfNumbers.length;
+  return evenCount;
 }
+
+// arrayOfNumbers.length
 
 let arr = [1,2,3,4,5,6,7,8,9,10];
 console.log(countEvenNumbers(arr))
